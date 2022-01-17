@@ -6,6 +6,11 @@
 //
 
 import UIKit
+import APIKit
+import MyAppUIKit
+
+
+extension APICaller: DataFetchable {}
 
 class ViewController: UIViewController {
 
@@ -19,6 +24,15 @@ class ViewController: UIViewController {
         button.setTitle("Tap Me", for: .normal)
         button.center = view.center
         button.setTitleColor(.white, for: .normal)
+        button.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
+    }
+    
+    @objc private func didTapButton() {
+        let vc = CoursesViewController(dataFetchable: APICaller.shared)
+        present(vc,animated: true)
+        
+        
+        
     }
 
 
