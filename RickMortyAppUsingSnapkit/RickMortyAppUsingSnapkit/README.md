@@ -23,10 +23,11 @@ This app showing Rick and Morty characters in a tableView. Fetching datas from A
 
 ## Built With
 
-MVVM Architecture
-Snapkit 
-Alamofire
-AlamofireImage
+* MVVM Architecture
+* Snapkit
+* Alamofire
+* AlamofireImage
+* XCode 13.2.1
 
 
 ## 	Licence 
