@@ -30,6 +30,7 @@ This app showing Rick and Morty characters in a tableView. Fetching datas from A
 * XCode 13.2.1
 
 
+
 ## 	Licence 
 
 Distributed under the MIT Licence.
