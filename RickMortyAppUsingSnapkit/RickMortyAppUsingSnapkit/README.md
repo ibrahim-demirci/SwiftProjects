@@ -6,7 +6,7 @@ This app showing Rick and Morty characters in a tableView. Fetching datas from A
 
 ## Screenshots
 
-![main](./Screenshots/main.png)
+<img src="./Screenshots/main.png" height=400>
 
 
 ## Usage 
