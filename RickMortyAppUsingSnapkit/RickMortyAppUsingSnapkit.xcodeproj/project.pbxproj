@@ -21,6 +21,8 @@
 		0A8AD4E8279CC1AB0086CCDE /* RickMortyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AD4E1279CC1AB0086CCDE /* RickMortyViewController.swift */; };
 		0A8AD4E9279CC1AB0086CCDE /* RickMortyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AD4E3279CC1AB0086CCDE /* RickMortyTableViewCell.swift */; };
 		0A8AD4EA279CC1AB0086CCDE /* RickMortyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AD4E5279CC1AB0086CCDE /* RickMortyService.swift */; };
+		0A8AD4ED279CC7CF0086CCDE /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A8AD4EC279CC7CF0086CCDE /* main.png */; };
+		0A8AD4EF279CC8450086CCDE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0A8AD4EE279CC8450086CCDE /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		0A8AD4E1279CC1AB0086CCDE /* RickMortyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RickMortyViewController.swift; sourceTree = "<group>"; };
 		0A8AD4E3279CC1AB0086CCDE /* RickMortyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RickMortyTableViewCell.swift; sourceTree = "<group>"; };
 		0A8AD4E5279CC1AB0086CCDE /* RickMortyService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RickMortyService.swift; sourceTree = "<group>"; };
+		0A8AD4EC279CC7CF0086CCDE /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = "<group>"; };
+		0A8AD4EE279CC8450086CCDE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,10 +76,12 @@
 		0A8AD498279CBE9B0086CCDE /* RickMortyAppUsingSnapkit */ = {
 			isa = PBXGroup;
 			children = (
+				0A8AD4EB279CC7BB0086CCDE /* Screenshots */,
 				0A8AD4DA279CC1AB0086CCDE /* Features */,
 				0A8AD4AD279CBEB30086CCDE /* Core */,
 				0A8AD4A4279CBE9C0086CCDE /* LaunchScreen.storyboard */,
 				0A8AD4A7279CBE9C0086CCDE /* Info.plist */,
+				0A8AD4EE279CC8450086CCDE /* README.md */,
 			);
 			path = RickMortyAppUsingSnapkit;
 			sourceTree = "<group>";
@@ -152,6 +158,14 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		0A8AD4EB279CC7BB0086CCDE /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				0A8AD4EC279CC7CF0086CCDE /* main.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -220,7 +234,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A8AD4ED279CC7CF0086CCDE /* main.png in Resources */,
 				0A8AD4A6279CBE9C0086CCDE /* LaunchScreen.storyboard in Resources */,
+				0A8AD4EF279CC8450086CCDE /* README.md in Resources */,
 				0A8AD4A3279CBE9C0086CCDE /* Assets.xcassets in Resources */,
 				0A8AD4A1279CBE9B0086CCDE /* Main.storyboard in Resources */,
 			);
