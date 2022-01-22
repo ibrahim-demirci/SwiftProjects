@@ -31,7 +31,7 @@ This app showing Rick and Morty characters in a tableView. Fetching datas from A
 
 
 
-## 	Licence 
+## Licence
 
 Distributed under the MIT Licence.
 
