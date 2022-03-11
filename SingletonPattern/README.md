@@ -6,7 +6,7 @@
 
 #### Singleton
 
-<img src="./Screenshots/singletion.png" height=350>
+<img src="./Screenshots/singleton.png" height=350>
 
 #### SingletonPlus
 
