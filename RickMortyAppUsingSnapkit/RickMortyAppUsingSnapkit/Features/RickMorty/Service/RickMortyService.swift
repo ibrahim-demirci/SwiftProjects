@@ -32,6 +32,8 @@ struct RickMortyService: IRickMortyService {
                 return
             }
             completion(data.results)
+        
         }
+        
     }
 }
