@@ -6,15 +6,19 @@ let app = UIApplication.shared
 
 
 public class MySingleton {
-  // 1
+  // Static Instance
   static let shared = MySingleton()
-  // 2
+    
+  // Mark init as private
   private init() { }
 }
-// 3
+
+// Get instance
 let mySingleton = MySingleton.shared
-// 4
+
+// Don't allow to create custom object
 // let mySingleton2 = MySingleton()
+
 
 
 // MARK: - Singleton Plus
@@ -23,14 +27,15 @@ let customFileManager = FileManager()
 
 
 public class MySingletonPlus {
-  // 1
+  // Static Instance
   static let shared = MySingletonPlus()
-  // 2
+    
+  // Marked as a public
   public init() { }
 }
-// 3
+// Get static instance
 let singletonPlus = MySingletonPlus.shared
 
-// 4
+// Get custom instance
 let singletonPlus2 = MySingletonPlus()
 
